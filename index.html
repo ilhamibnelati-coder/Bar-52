@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bar 52 | Pollo Asado</title>
+  <meta name="description" content="Bar 52 - Pollo asado y comida casera.">
+  <style>
+    :root { --gold:#f5b400; --dark:#15110d; --cream:#fff8e8; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial, sans-serif; background:var(--dark); color:var(--cream); }
+    header { min-height:90vh; display:flex; align-items:center; justify-content:center;
+      text-align:center; padding:40px 20px;
+      background:linear-gradient(#0008,#000b), url('bar52-pollo-asado.png') center/cover; }
+    .hero { max-width:850px; }
+    h1 { font-size:clamp(3rem,10vw,7rem); margin:0; color:white; letter-spacing:3px; }
+    h2 { font-size:clamp(2rem,5vw,4rem); color:var(--gold); margin:10px 0; }
+    p { font-size:1.2rem; line-height:1.6; }
+    .button { display:inline-block; margin:12px 6px; padding:15px 24px; border-radius:30px;
+      background:var(--gold); color:#111; text-decoration:none; font-weight:bold; }
+    .button.secondary { background:white; }
+    section { padding:55px 20px; text-align:center; }
+    .cards { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; max-width:1000px; margin:auto; }
+    .card { background:#251c15; border:1px solid #5b4328; border-radius:18px; padding:25px; width:280px; }
+    .phone { font-size:clamp(1.8rem,5vw,3rem); color:var(--gold); font-weight:bold; }
+    footer { padding:30px; text-align:center; background:#0b0907; color:#bbb; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="hero">
+    <h1>BAR 52</h1>
+    <h2>Pollo Asado</h2>
+    <p>Sabor tradicional, siempre fresco.</p>
+    <a class="button" href="tel:+34968411534">📞 Fijo: 968 411 534</a>
+    <a class="button secondary" href="#contacto">📍 Contacto</a>
+  </div>
+</header>
+
+<section>
+  <h2>🍗 Nuestro pollo asado</h2>
+  <p>Pollo asado al estilo tradicional, acompañado de guarniciones caseras.</p>
+  <div class="cards">
+    <div class="card"><h3>🍗 Pollo asado</h3><p>Jugoso, dorado y recién preparado.</p></div>
+    <div class="card"><h3>🥔 Guarniciones</h3><p>Opciones caseras para acompañar tu comida.</p></div>
+    <div class="card"><h3>☕ Bar 52</h3><p>Un lugar para comer y disfrutar.</p></div>
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Haz tu pedido</h2>
+  <p class="phone">968 411 534</p>
+  <p><strong>📱 Móvil: 657 213 804</strong></p>
+  <a class="button" href="tel:+34968411534">📞 Llamar al fijo</a>
+  <a class="button secondary" href="tel:+34657213804">📱 Llamar al móvil</a>
+  <p>📍 Calle Candelaria, 56<br>🕐 Horario: martes a domingo, de 05:00 a 00:00<br>🔴 Lunes: cerrado</p>
+</section>
+
+<footer>© Bar 52 · Pollo Asado</footer>
+</body>
+</html>
